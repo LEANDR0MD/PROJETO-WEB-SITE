@@ -26,6 +26,9 @@ body, ul, li, p {
     align-items: center;
     flex-wrap: wrap;
 }
+.headerResponsivo{
+    
+}
 .logo{
     max-width: 160px;
 }
