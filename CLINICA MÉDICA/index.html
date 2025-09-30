@@ -15,16 +15,18 @@
                     
             
                             <div class="logoResponsivo">
-                                <img src="imagens/logo-policlinica.png" alt="" class="logo">
+                                <a href="#"><img src="imagens/logo-policlinica.png" alt="" class="logo"></a>
                             </div>
             
                             <div class="navResponsivo">
-                                <nav >
+                                <button id="openMenu">&#9776;</button>
+                                <nav>
                                     <ul class="menu">
-                                        <li class="menu-principal"><a href="">Início</a></li>
-                                        <li class="menu-principal"><a href="">Sobre Nós</a></li>
-                                        <li class="menu-principal"><a href="">Endereço</a></li>
-                                        <li class="menu-principal"><a href="">Contato</a></li>
+                                        <button id="closeMenu">X</button>
+                                        <li class="menu-principal"><a href="">INÍCIO</a></li>
+                                        <li class="menu-principal"><a href="">SOBRE NÓS</a></li>
+                                        <li class="menu-principal"><a href="">ENDEREÇO</a></li>
+                                        <li class="menu-principal"><a href="">CONTATO</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -33,6 +35,18 @@
             
             </header>
         </div>
+         <script type="text/javascript">
+            openMenu.addEventListener('click',() => {
+              menu.style.display = 'flex'
+                
+            })
+            closeMenu.addEventListener('click',() => {
+             
+            })
+        </script>
+
+    
+        
 
     <main>
         <h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
