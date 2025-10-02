@@ -20,14 +20,14 @@
             
                             <div class="navResponsivo">
                                 <button id="openMenu">&#9776;</button>
-                                <nav>
-                                    <ul class="menu">
+                                <nav class="menu">
+                                    
                                         <button id="closeMenu">X</button>
-                                        <li class="menu-principal"><a href="">INÍCIO</a></li>
-                                        <li class="menu-principal"><a href="">SOBRE NÓS</a></li>
-                                        <li class="menu-principal"><a href="">ENDEREÇO</a></li>
-                                        <li class="menu-principal"><a href="">CONTATO</a></li>
-                                    </ul>
+                                        <a href="" class="menu-principal">INÍCIO</a>
+                                        <a href="" class="menu-principal">SOBRE NÓS</a>
+                                        <a href="" class="menu-principal">ENDEREÇO</a>
+                                        <a href="" class="menu-principal">CONTATO</a>
+                                    
                                 </nav>
                             </div>
                    
@@ -41,6 +41,7 @@
                 
             })
             closeMenu.addEventListener('click',() => {
+                menu.removeArtribute('style')
              
             })
         </script>
@@ -50,6 +51,7 @@
 
     <main>
         <h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+        
     </main>
     <footer>
 
