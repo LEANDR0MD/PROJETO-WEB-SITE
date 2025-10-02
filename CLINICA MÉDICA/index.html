@@ -21,7 +21,6 @@
                             <div class="navResponsivo">
                                 <button id="openMenu">&#9776;</button>
                                 <nav class="menu">
-                                    
                                         <button id="closeMenu">X</button>
                                         <a href="" class="menu-principal">INÍCIO</a>
                                         <a href="" class="menu-principal">SOBRE NÓS</a>
@@ -30,19 +29,30 @@
                                     
                                 </nav>
                             </div>
-                   
-            
             
             </header>
         </div>
          <script type="text/javascript">
             openMenu.addEventListener('click',() => {
               menu.style.display = 'flex'
+              menu.style.right(menu.offsetWidth * -1) = 'px'
+              openMenu.style.display = 'none'
+
+              setTimeout(()=>{
+                 menu.style.opacity = '1'
+                 menu.style.right = '0'
+              },10)
                 
             })
             closeMenu.addEventListener('click',() => {
-                menu.removeArtribute('style')
-             
+                menu.style.opacity = '0'
+                menu.style.right = (menu.offsetWidth * -1)+'px'
+
+
+                setTimeout(()=>{
+                 menu.removeArtribute('style')
+                 openMenu.removeArtribute('style')
+              },200) 
             })
         </script>
 
