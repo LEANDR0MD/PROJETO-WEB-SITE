@@ -115,7 +115,7 @@ main{
         right: 15px;
         height: 15px;
     } 
-    .menu{
+    nav{
         position: fixed;
         flex-direction: column;
         width: 100vw;
