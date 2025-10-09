@@ -8,7 +8,7 @@ body, a, p {
 
 :root{
     --cor0: white;
-    --cor1: #0057e0;
+    --cor1: #111d18;
     --cor2: #46e2d9;
     --cor3: #7bf2ec;
 
@@ -20,7 +20,7 @@ body, a, p {
 
 .headerResponsivo{
     display: block;
-    background-image: linear-gradient(to top, var(--cor2) 0.01%,#0057e0 );
+    background-image: linear-gradient(to top, var(--cor2) 0.01%, var(--cor1));
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -28,7 +28,7 @@ body, a, p {
 
 .header{
     display: flex;
-    background-image: linear-gradient(to top, var(--cor2) 0.01%,#0057e0 );
+    background-image: linear-gradient(to top, var(--cor2) 0.01%,var(--cor1));
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -59,7 +59,7 @@ body, a, p {
 
 .logo{
     display: flex;
-    max-width: 160px;
+    max-width: 200px;
     padding: 10px;
     
 }
@@ -86,7 +86,7 @@ a{
 .menu-principal:hover{
     
     background-color: #ffffff;
-    color: #0057e0;
+    color: #000000;
     border-radius: 25px;
     transition-duration: 0.3s;
 }
