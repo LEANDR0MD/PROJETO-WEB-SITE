@@ -1,24 +1,29 @@
 @charset "UTF-8";
-body, a, p {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Maven+Pro:wght@400..900&display=swap');
+
+
+body,
+a,
+p {
     margin: 0px;
     padding: 0px;
-    list-style: none;  
-    font-family: 'Maven Pro', 'Bebas Neue', Arial, Helvetica, sans-serif;    
+    list-style: none;
+    font-family: 'Maven Pro', 'Bebas Neue', Arial, Helvetica, sans-serif;
 }
 
-:root{
+:root {
     --cor0: white;
-    --cor1: #111d18;
+    --cor1: #0f2b29;
     --cor2: #46e2d9;
     --cor3: #7bf2ec;
 
-    --fonte-padrao:'Bebas Neue', Arial, Helvetica, sans-serif;
-    --fonte-links:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --fonte-padrao: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    --fonte-links: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --fonte-android: 'idroid';
 }
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Maven+Pro:wght@400..900&display=swap');
 
-.headerResponsivo{
+
+.headerResponsivo {
     display: block;
     background-image: linear-gradient(to top, var(--cor2) 0.01%, var(--cor1));
     justify-content: center;
@@ -26,9 +31,9 @@ body, a, p {
     flex-wrap: wrap;
 }
 
-.header{
+.header {
     display: flex;
-    background-image: linear-gradient(to top, var(--cor2) 0.01%,var(--cor1));
+    background-image: linear-gradient(to top, var(--cor2) 0.01%, var(--cor1));
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -37,17 +42,20 @@ body, a, p {
     padding: 0px 30px;
 }
 
-.logoResponsivo{
+.logoResponsivo {
     display: flex;
-    
+
 }
-.navResponsivo{
+
+.navResponsivo {
     display: flex;
     letter-spacing: 2px;
-    font-size: 0.8em;  
+    font-size: 0, 9em;
 }
-#openMenu, #closeMenu{
-    
+
+#openMenu,
+#closeMenu {
+
     border: none;
     background: none;
     font-size: 20px;
@@ -57,44 +65,52 @@ body, a, p {
     display: none;
 }
 
-.logo{
+.logo {
     display: flex;
     max-width: 200px;
     padding: 10px;
-    
+
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-.menu{
+
+.menu {
     display: flex;
-    
+
 }
-.menu li{
+
+.menu li {
     margin-left: 10px;
 }
-.menu li a{
+
+.menu li a {
     padding: 10px 15px;
 }
-.menu-principal{
+
+.menu-principal {
     padding: 10px 15px;
     font-weight: 600;
     font-size: smaller;
 
 }
-.menu-principal:hover{
-    
+
+.menu-principal:hover {
+
     background-color: #ffffff;
     color: #000000;
     border-radius: 25px;
     transition-duration: 0.3s;
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
-main{
+
+main {
     background-color: rgb(169, 33, 33);
     margin: auto;
     max-width: 1200px;
@@ -103,19 +119,24 @@ main{
 
 
 
-@media only screen and (max-width:717px){
-    #openMenu, #closeMenu{
+@media only screen and (max-width:717px) {
+
+    #openMenu,
+    #closeMenu {
         display: block;
     }
-    #openMenu{
+
+    #openMenu {
         margin-left: auto;
     }
-    #closeMenu{
+
+    #closeMenu {
         position: fixed;
         right: 15px;
         height: 15px;
-    } 
-    nav{
+    }
+
+    nav {
         position: fixed;
         flex-direction: column;
         width: 100vw;
@@ -124,9 +145,8 @@ main{
         align-items: center;
         align-content: center;
         margin: 0px;
-        display: none; 
-        opacity: 0; 
-        transition: 0.3;   
+        display: none;
+        opacity: 0;
+        transition: 0.3;
     }
 }
-

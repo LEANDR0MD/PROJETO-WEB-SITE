@@ -1,70 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clínica Médica</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://www.vilarica.mt.gov.br/images/favicon/apple-icon-152x152.png" rel="shortcut icon"
+        type="image/vnd.microsoft.icon" />
+
 </head>
+
 <body>
-    
-    
-        <div class="headerResponsivo">
-            <header class="header">
-            
-                    
-            
-                            <div class="logoResponsivo">
-                                <a href="#"><img src="imagens/Design_sem_nome__7_-removebg-preview.png" alt="" class="logo"></a>
-                            </div>
-            
-                            <div class="navResponsivo">
-                                <button id="openMenu">&#9776;</button>
-                                <nav id="menu">
-                                        <button id="closeMenu">X</button>
-                                        <a href="" class="menu-principal">INÍCIO</a>
-                                        <a href="" class="menu-principal">SOBRE NÓS</a>
-                                        <a href="" class="menu-principal">ENDEREÇO</a>
-                                        <a href="" class="menu-principal">CONTATO</a>
-                                    
-                                </nav>
-                            </div>
-            
-            </header>
-        </div>
-         <script type="text/javascript">
-            openMenu.addEventListener('click',() => {
-              menu.style.display = 'flex'
-              menu.style.right(menu.offsetWidth * -1) = 'px'
-              openMenu.style.display = 'none'
-
-              setTimeout(()=>{
-                 menu.style.opacity = '1'
-                 menu.style.right = '0'
-              },10)
-                
-            })
-            closeMenu.addEventListener('click',() => {
-                menu.style.opacity = '0'
-                menu.style.right = (menu.offsetWidth * -1)+'px'
 
 
-                setTimeout(()=>{
-                 menu.removeArtribute('style')
-                 openMenu.removeArtribute('style')
-              },200) 
-            })
-        </script>
+    <div class="headerResponsivo">
+        <header class="header">
 
-    
-        
+
+
+            <div class="logoResponsivo">
+                <a href="#"><img src="imagens/Design_sem_nome__7_-removebg-preview.png" alt="" class="logo"></a>
+            </div>
+
+            <div class="navResponsivo">
+                <button id="openMenu">&#9776;</button>
+                <nav id="menu">
+                    <button id="closeMenu">X</button>
+                    <a href="" class="menu-principal">INÍCIO</a>
+                    <a href="" class="menu-principal">SOBRE NÓS</a>
+                    <a href="" class="menu-principal">ENDEREÇO</a>
+                    <a href="" class="menu-principal">CONTATO</a>
+
+                </nav>
+            </div>
+
+        </header>
+    </div>
+    <script type="text/javascript">
+        openMenu.addEventListener('click', () => {
+            menu.style.display = 'flex'
+            menu.style.right(menu.offsetWidth * -1) = 'px'
+            openMenu.style.display = 'none'
+
+            setTimeout(() => {
+                menu.style.opacity = '1'
+                menu.style.right = '0'
+            }, 10)
+
+        })
+        closeMenu.addEventListener('click', () => {
+            menu.style.opacity = '0'
+            menu.style.right = (menu.offsetWidth * -1) + 'px'
+
+
+            setTimeout(() => {
+                menu.removeArtribute('style')
+                openMenu.removeArtribute('style')
+            }, 200)
+        })
+    </script>
+
+
+
 
     <main>
-        <h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
-        
+        <h1>a</h1>
+
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
