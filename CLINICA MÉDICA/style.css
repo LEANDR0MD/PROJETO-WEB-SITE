@@ -50,7 +50,7 @@ p {
 .navResponsivo {
     display: flex;
     letter-spacing: 2px;
-    font-size: 0, 9em;
+    font-size: smaller;
 }
 
 #openMenu,
