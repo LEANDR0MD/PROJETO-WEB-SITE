@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Maven+Pro:wght@400..900&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
 
 body,
 a,
@@ -13,7 +18,7 @@ p {
 
 :root {
     --cor0: white;
-    --cor1: #0f2b29;
+    --cor1: #0D9488;
     --cor2: #46e2d9;
     --cor3: #7bf2ec;
 
@@ -105,48 +110,126 @@ a {
     transition-duration: 0.3s;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
+section {
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
 }
 
-main {
-    background-color: rgb(169, 33, 33);
-    margin: auto;
-    max-width: 1200px;
-    min-width: 320px;
+section.banner {
+
+    color: white;
+    box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.937);
+    background-size: cover;
+    padding: 200px;
+
 }
 
+section.banner>h1,
+h2 {
+    padding: 5px;
+    text-shadow: 1px 1px 10px black;
+    text-align: center;
+
+}
+
+section#img01 {
+    background-image: url('imagens/crutches-538883_1920.jpg');
+    background-position: center, center;
 
 
-@media only screen and (max-width:717px) {
 
-    #openMenu,
-    #closeMenu {
-        display: block;
-    }
+}
 
-    #openMenu {
-        margin-left: auto;
-    }
+section>h1 {
+    font-size: 5em;
+    padding: 60px;
 
-    #closeMenu {
-        position: fixed;
-        right: 15px;
-        height: 15px;
-    }
 
-    nav {
-        position: fixed;
-        flex-direction: column;
-        width: 100vw;
-        height: 100vh;
-        background-color: rgba(red, green, blue, 0.8);
-        align-items: center;
-        align-content: center;
-        margin: 0px;
-        display: none;
-        opacity: 0;
-        transition: 0.3;
-    }
+}
+
+section>h2 {
+    font-size: 1.5vw;
+    padding-top: 40px;
+
+}
+
+.subtitulo {
+    color: #0D9488;
+    font-size: medium;
+}
+
+.atendimento {
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+}
+
+.depoimento {
+    background-color: #0F172A;
+    color: white;
+}
+
+.endereco {}
+
+.agendar {
+    background-color: #46e2d9;
+    height: 100px;
+    padding-top: 70px;
+    padding-bottom: 200px;
+
+}
+
+h3 {
+
+    font-size: 3.5em;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1em;
+
+}
+
+section>p {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 200;
+    padding: 20px;
+
+}
+
+section>p>a {
+    color: #0D9488;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 15px 40px;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.307);
+
+}
+
+section>p>a:hover {
+    text-decoration: underline;
+    background-color: aliceblue;
+
+}
+
+footer {
+    background-color: #0F172A;
+    color: white;
+    padding: 10px;
+    padding-left: 80px;
+
+}
+
+footer>p {
+    display: inline-block;
+
+}
+
+.p2footer {
+    text-align: right;
+    padding-left: 700px;
+
 }

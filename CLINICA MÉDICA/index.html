@@ -16,9 +16,6 @@
 
     <div class="headerResponsivo">
         <header class="header">
-
-
-
             <div class="logoResponsivo">
                 <a href="#"><img src="imagens/Design_sem_nome__7_-removebg-preview.png" alt="" class="logo"></a>
             </div>
@@ -31,45 +28,40 @@
                     <a href="" class="menu-principal">SOBRE NÓS</a>
                     <a href="" class="menu-principal">ENDEREÇO</a>
                     <a href="" class="menu-principal">CONTATO</a>
-
                 </nav>
             </div>
-
         </header>
     </div>
-    <script type="text/javascript">
-        openMenu.addEventListener('click', () => {
-            menu.style.display = 'flex'
-            menu.style.right(menu.offsetWidth * -1) = 'px'
-            openMenu.style.display = 'none'
-
-            setTimeout(() => {
-                menu.style.opacity = '1'
-                menu.style.right = '0'
-            }, 10)
-
-        })
-        closeMenu.addEventListener('click', () => {
-            menu.style.opacity = '0'
-            menu.style.right = (menu.offsetWidth * -1) + 'px'
-
-
-            setTimeout(() => {
-                menu.removeArtribute('style')
-                openMenu.removeArtribute('style')
-            }, 200)
-        })
-    </script>
-
-
-
 
     <main>
-        <h1>a</h1>
+        <section class="banner" id="img01">
+            <h1>Sua saúde em boas mãos</h1>
+            <h2>Excelência médica com atendimento humanizado. Nós estamos prontos para cuidar de você e de sua
+                família.
+            </h2>
+        </section>
+        <section class="atendimento">
+            <p class="subtitulo">ATENDIMENTO</p>
+            <h3>Cuidado especializado para a sua necessidade</h3>
+        </section>
+        <section class="depoimento">
+            <p class="subtitulo">DEPOIMENTOS</p>
+            <h3>O que nossos pacientes dizem</h3>
+            <p>A satisfação de nossos pacientes é nosso maior orgulho</p>
 
+        </section>
+        <section class="endereco">
+            <p class="subtitulo">ENDEREÇO</p>
+        </section>
+        <section class="agendar">
+            <h3 style="color: white;">Pronto para cuidar da sua <strong>saúde?</strong></h3>
+            <p>Agende sua consulta agora mesmo e conte com nossa equipe de especialistas</p>
+            <p><a href="####">Agendar Online</a></p>
+        </section>
     </main>
     <footer>
-
+        <p>&#x00A9 2025 IntegrativeSaúde. Todos os direitos reservados.</p>
+        <p class="p2footer">Site desenvolvido por Leandro (0001)</p>
     </footer>
 </body>
 
