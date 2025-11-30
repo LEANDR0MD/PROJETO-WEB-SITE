@@ -34,7 +34,11 @@ p {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0px;
+
 }
+
 
 .header {
     display: flex;
@@ -44,11 +48,18 @@ p {
     flex-wrap: wrap;
     max-width: 1300px;
     margin: auto;
-    padding: 0px 30px;
+    padding: 5px 30px;
+
+
 }
+
+
 
 .logoResponsivo {
     display: flex;
+    padding: 5px;
+
+
 
 }
 
@@ -75,6 +86,7 @@ p {
     max-width: 200px;
     padding: 10px;
 
+
 }
 
 a {
@@ -82,16 +94,17 @@ a {
     color: white;
 }
 
-.menu {
+#menu {
     display: flex;
+
 
 }
 
-.menu li {
+#menu>li {
     margin-left: 10px;
 }
 
-.menu li a {
+#menu>li>a {
     padding: 10px 15px;
 }
 
@@ -216,6 +229,7 @@ section>p>a:hover {
 }
 
 footer {
+    display: block;
     background-color: #0F172A;
     color: white;
     padding: 10px;
@@ -225,11 +239,14 @@ footer {
 
 footer>p {
     display: inline-block;
+    padding: 10px;
 
 }
 
 .p2footer {
+    display: flex;
     text-align: right;
-    padding-left: 700px;
+
+
 
 }
