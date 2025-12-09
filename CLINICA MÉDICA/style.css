@@ -273,19 +273,45 @@ footer {
     background-color: #0F172A;
     color: white;
     padding: 10px;
-    padding-left: 80px;
+
+
+
 
 }
 
-footer>p {
+.footer0 {
+    background-color: blue;
+    display: block;
+
+
+
+}
+
+
+.footer1 {
+    background-color: #8639f9;
     display: inline-block;
+    height: 250px;
+    width: 270px;
     padding: 10px;
+    margin: auto;
+
+
+
+
 
 }
 
-.p2footer {
-    display: flex;
-    text-align: right;
+.imgfooter {
+    max-width: 200px;
+    padding: 10px;
+}
+
+
+.footer2 {
+    padding: 30px;
+    line-height: 0.8em;
+    text-align: center;
 
 
 
