@@ -41,6 +41,8 @@ p {
     position: sticky;
     top: 0px;
 
+
+
 }
 
 
@@ -53,6 +55,8 @@ p {
     max-width: 1300px;
     margin: auto;
     padding: 5px 30px;
+
+
 
 
 
@@ -157,6 +161,7 @@ section#img01 {
     height: 70vh;
     text-align: center;
     position: relative;
+    display: block;
 
 
 
@@ -322,8 +327,10 @@ footer {
 }
 
 .footer0 {
-    background-color: blue;
-    display: block;
+    background-color: rgba(0, 0, 255, 0);
+    display: flex;
+
+
 
 
 
@@ -331,19 +338,27 @@ footer {
 
 
 .footer1 {
-    background-color: #8639f9;
-    display: inline-block;
+    background-color: #8639f900;
+
+
+
     height: 250px;
     width: 270px;
-    padding: 10px;
+    padding: 20px 10px 10px 10px;
     margin: auto;
+
+    font-size: 1em;
 
 
 }
 
 .imgfooter {
-    max-width: 200px;
-    padding: 10px;
+    max-width: 250px;
+    padding: 0px 0px 20px 0px;
+
+
+
+
 }
 
 
@@ -352,6 +367,18 @@ footer {
     line-height: 0.8em;
     text-align: center;
 
+
+
+}
+
+.ftitulo {
+    font-size: 1.3em;
+    padding: 22px 0px;
+}
+
+.footer1>p>a {
+    font-size: 1em;
+    line-height: 2em;
 
 
 }
