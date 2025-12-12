@@ -168,7 +168,7 @@ section#img01 {
 }
 
 .pbanner {
-    background-color: #00000044;
+    background-color: #0000001e;
     height: 60vh;
     width: 90vw;
 
@@ -242,35 +242,57 @@ section>div>h2 {
 .blocalizacao {
     display: block;
 
+
 }
 
 .dilocal {
-    display: block;
-    margin: auto;
+    background-color: rgba(137, 43, 226, 0);
+    padding: 40px 30px 70px 30px;
+
+
+    display: flex;
+    /* Ativa o flexbox */
+    flex-wrap: wrap;
+    /* Permite que os itens quebrem para a próxima linha */
+    justify-content: space-between;
+    /* Distribui o espaço entre os itens na linha */
+    gap: 10px;
+    /* Adiciona espaçamento entre os itens e linhas (opcional, mas recomendado) */
+
+
+
+
+
 }
 
 .localizacao {
-    background-color: rgba(230, 230, 230, 0.714);
+    background-color: #46e2da2f;
     width: 300px;
     height: 150px;
-    border-radius: 30px;
-    padding: 20px;
-    display: inline-block;
-    margin: 10px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin: auto;
+
+
+
+    box-sizing: border-box;
+
+
+
 
 
 }
 
-/*.diframe {
-    display: block;
-    margin: auto;
-}*/
+
 
 iframe {
     width: 600px;
     height: 600px;
     margin: auto;
-    display: block;
+    border-radius: 30px;
+    display: flex;
+
+
 
 }
 
@@ -295,12 +317,12 @@ section>p {
     text-align: center;
     font-size: x-large;
     font-weight: 200;
-    padding: 20px;
+    padding: 20px 10px 40px 10px;
 
 }
 
 section>p>a {
-    color: #0D9488;
+    color: #1fc4b6;
     background-color: #ffffff;
     border-radius: 50px;
     padding: 15px 40px;
@@ -329,6 +351,7 @@ footer {
 .footer0 {
     background-color: rgba(0, 0, 255, 0);
     display: flex;
+    flex-wrap: wrap;
 
 
 
@@ -346,6 +369,7 @@ footer {
     width: 270px;
     padding: 20px 10px 10px 10px;
     margin: auto;
+
 
     font-size: 1em;
 
