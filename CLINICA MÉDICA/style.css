@@ -6,6 +6,9 @@
     padding: 0px;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
+
+
+
 }
 
 body,
@@ -149,11 +152,13 @@ section.banner>h1 h2 {
     padding: 5px;
 
 
+}
 
-
-
+h3 {
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
 
 }
+
 
 section#img01 {
     background-image: url('imagens/crutches-538883_1920.jpg');
@@ -325,9 +330,9 @@ section>p>a {
     color: #1fc4b6;
     background-color: #ffffff;
     border-radius: 50px;
-    padding: 15px 40px;
-    font-weight: 500;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.307);
+    padding: 10px 30px;
+    font-weight: 100;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.141);
 
 }
 
