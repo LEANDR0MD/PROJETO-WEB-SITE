@@ -11,13 +11,19 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+
+    /*Efeito de deslizamento ao clicar em um botão que direcionara para uma parte do site atual, não esqueça de colocar o id no destino e o nome do id no link que sera o botão.*/
+}
+
 body,
 a,
 p {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    font-family: 'Maven Pro', 'Bebas Neue', Arial, Helvetica, sans-serif;
+    font-family: 'idroid', 'Maven Pro', 'Bebas Neue', Arial, Helvetica, sans-serif;
 
 }
 
@@ -73,6 +79,7 @@ p {
 
 
 
+
 }
 
 .navResponsivo {
@@ -80,6 +87,8 @@ p {
     letter-spacing: 2px;
     font-size: smaller;
 }
+
+
 
 #openMenu,
 #closeMenu {
@@ -95,7 +104,7 @@ p {
 
 .logo {
     display: flex;
-    max-width: 200px;
+    max-width: 220px;
     padding: 10px;
 
 
@@ -145,6 +154,13 @@ a {
 
 
 
+
+
+}
+
+section {
+    scroll-margin-top: 90px;
+    /*ainda não entendi como funciona, mas ele corrige a rolagen dos botões de navegação do site, que estavam descento alguns pixel a mais do esperado.*/
 }
 
 section.banner>h1 h2 {
@@ -160,7 +176,7 @@ h3 {
 }
 
 
-section#img01 {
+#img01 {
     background-image: url('imagens/crutches-538883_1920.jpg');
     background-position: center, center;
     height: 70vh;
@@ -170,7 +186,9 @@ section#img01 {
 
 
 
+
 }
+
 
 .pbanner {
     background-color: #0000001e;
@@ -184,6 +202,9 @@ section#img01 {
     transform: translate(-50%, -50%);
 
     border-radius: 20px;
+
+
+
 
 
 
@@ -238,11 +259,7 @@ section>div>h2 {
     color: white;
 }
 
-.endereco {
-    padding-bottom: 60px;
 
-
-}
 
 .blocalizacao {
     display: block;
@@ -250,9 +267,10 @@ section>div>h2 {
 
 }
 
+
 .dilocal {
     background-color: rgba(137, 43, 226, 0);
-    padding: 40px 30px 70px 30px;
+    padding: 40px 30px 40px 30px;
 
 
     display: flex;
@@ -266,16 +284,18 @@ section>div>h2 {
 
 
 
+}
 
-
+#endereco {
+    background-color: #ffffff;
 }
 
 .localizacao {
     background-color: #46e2da2f;
     width: 300px;
-    height: 150px;
+    height: 180px;
     border-radius: 20px;
-    padding: 20px 20px;
+    padding: 20px 25px;
     margin: auto;
 
 
@@ -283,19 +303,100 @@ section>div>h2 {
     box-sizing: border-box;
 
 
+}
+
+.imgEnde {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.plocali {
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.plocali1 {
+    padding: 5px 0px;
+    color: #000000b6;
+
+}
+
+.plocali2 {
+    padding: 5px 0px;
+    color: #0000008a;
+
+
+}
+
+.diframe {
+    background-color: #ffffff;
+    position: relative;
+
+
+    padding: 20%;
+
+}
+
+.diframe1 {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.258);
+    background-color: #ffffff;
+    position: absolute;
+    padding: 5px 5px;
+    display: flex;
+    width: 250px;
+    border-radius: 20px;
+    align-items: center;
+
+
+    position: absolute;
+    top: 85%;
+    left: 27%;
+    transform: translate(-10%, -10%);
 
 
 
 }
 
+.imgEnde1 {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.plocali3 {
+    font-weight: 600;
+    padding-left: 5px;
+
+}
+
+
+.plocali4 {
+    padding-left: 5px;
+}
+
 
 
 iframe {
-    width: 600px;
-    height: 600px;
-    margin: auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.148);
+
     border-radius: 30px;
-    display: flex;
+
+    position: absolute;
+    top: 5%;
+
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    max-width: 700px;
+    max-height: 700px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
 
 
 
@@ -307,6 +408,7 @@ iframe {
     padding-top: 70px;
     padding-bottom: 200px;
 
+
 }
 
 h3 {
@@ -315,6 +417,7 @@ h3 {
     font-weight: 100;
     text-align: center;
     line-height: 1em;
+
 
 }
 
@@ -334,6 +437,8 @@ section>p>a {
     font-weight: 100;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.141);
 
+
+
 }
 
 section>p>a:hover {
@@ -351,6 +456,9 @@ footer {
 
 
 
+
+
+
 }
 
 .footer0 {
@@ -360,20 +468,21 @@ footer {
 
 
 
+}
 
+.fhover:hover {
+    color: var(--cor2);
 
 }
+
 
 
 .footer1 {
     background-color: #8639f900;
 
 
-
-    height: 250px;
-    width: 270px;
-    padding: 20px 10px 10px 10px;
-    margin: auto;
+    padding: 20px 10px 20px 10px;
+    margin: 0px auto auto auto;
 
 
     font-size: 1em;
@@ -383,11 +492,17 @@ footer {
 
 .imgfooter {
     max-width: 250px;
-    padding: 0px 0px 20px 0px;
+    padding: 5px 0px 20px 0px;
+    width: 500px;
 
 
 
 
+}
+
+.pfooter {
+
+    max-width: 500px;
 }
 
 
@@ -403,11 +518,14 @@ footer {
 .ftitulo {
     font-size: 1.3em;
     padding: 22px 0px;
+
 }
+
 
 .footer1>p>a {
     font-size: 1em;
     line-height: 2em;
+
 
 
 }
