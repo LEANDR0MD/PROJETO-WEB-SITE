@@ -255,6 +255,7 @@ section>div>h2 {
 }
 
 .depoimento {
+    background-image: linear-gradient(to left top, #46e2da10, #46e2da29, #46e2da18);
     background-color: #0F172A;
     color: white;
 }
@@ -290,8 +291,14 @@ section>div>h2 {
     background-color: #ffffff;
 }
 
+.fideback:hover {
+    background-color: #b3eae815;
+}
+
 .fideback {
-    background-color: #46e2da2f;
+
+
+    background-color: #46e2da10;
     width: 430px;
     height: 300px;
     border-radius: 20px;
@@ -302,10 +309,12 @@ section>div>h2 {
 
     box-sizing: border-box;
 
+    border: 1px solid rgba(251, 251, 251, 0.096);
+
 }
 
 .localizacao {
-    background-color: #46e2da2f;
+    background-color: #DDFAF8;
     width: 300px;
     height: 180px;
     border-radius: 20px;
@@ -317,6 +326,13 @@ section>div>h2 {
     box-sizing: border-box;
 
 
+}
+
+.imgAspas {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    padding-bottom: 15px;
 }
 
 .imgEnde {
@@ -334,6 +350,38 @@ section>div>h2 {
 
 
 
+}
+
+.imgDepo {
+    height: 60px;
+    width: 60px;
+    border-radius: 200px;
+    border: 2px solid #0D9488;
+}
+
+.imgflex {
+    display: flex;
+    /*Essa class possui dentro dela um (p) com uma (img) dentro do (p), mais uma (div) com dois (p) dentro da (div). O flex faz o (p) se separar da (div) colocando uma em cada lado.*/
+    align-items: center;
+    /*O align-items alinha oque esta de um lado com oque estádo outro.*/
+    gap: 1em;
+    /*Gap separa os dois o quanto eu quiser.*/
+}
+
+.nomedocliente {
+    font-weight: 600;
+    padding: 5px 0px;
+
+
+}
+
+.tempodefreguesia {
+    color: #ffffff80;
+}
+
+.depoimentos {
+    font-weight: 300;
+    padding: 10px 0px 30px 0px;
 }
 
 .plocali {
@@ -383,12 +431,7 @@ section>div>h2 {
 
 }
 
-.imgEnde1 {
-    padding: 10px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
+
 
 .plocali3 {
     font-weight: 600;
@@ -425,6 +468,13 @@ iframe {
 
 
 
+}
+
+.imgEnde1 {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 .agendar {
