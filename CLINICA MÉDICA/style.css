@@ -279,7 +279,7 @@ section>div>h2 {
     /* Permite que os itens quebrem para a próxima linha */
     justify-content: space-between;
     /* Distribui o espaço entre os itens na linha */
-    gap: 10px;
+    gap: 50px;
     /* Adiciona espaçamento entre os itens e linhas (opcional, mas recomendado) */
 
 
@@ -288,6 +288,20 @@ section>div>h2 {
 
 #endereco {
     background-color: #ffffff;
+}
+
+.fideback {
+    background-color: #46e2da2f;
+    width: 430px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 30px 30px;
+    margin: auto;
+
+
+
+    box-sizing: border-box;
+
 }
 
 .localizacao {
@@ -309,6 +323,17 @@ section>div>h2 {
     height: 40px;
     width: 40px;
     border-radius: 10px;
+}
+
+.estrela {
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: -3px;
+
+
+
 }
 
 .plocali {
